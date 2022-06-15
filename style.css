@@ -77,11 +77,15 @@ main {
   background-color: #4fabc9;
 }
 
+.neg {
+ font-size: 4vw; 
+}
+
 @media screen and (min-width: 500px) {
   #calculator {
     width: 500px;
   }
-  .button {
+  .button, .neg {
     font-size: 30px;
   }
 }
